@@ -1,6 +1,6 @@
 AUTHOR = 'Greg Hayes'
-SITENAME = 'My Personal Site'
-SITEURL = ""
+SITENAME = 'The Personal Website of Greg Hayes'
+SITEURL = "www.gregoryhayes.us"
 
 PATH = "content"
 
