@@ -1,0 +1,4 @@
+Sitemap: https://www.gregoryhayes.us/sitemapindex.xml
+
+User-Agent: *
+Host: www.gregoryhayes.us
