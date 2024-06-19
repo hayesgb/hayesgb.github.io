@@ -13,4 +13,6 @@ jobs:
     with:
       settings: "publishconf.py"
       requirements: "-r requirements.txt"
+      theme: "https://github.com/Pelican-Elegant/elegant.git"
+      python: "3.11"
       # output-path: "__output__/"
