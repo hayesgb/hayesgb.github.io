@@ -13,4 +13,4 @@ jobs:
     with:
       settings: "publishconf.py"
       requirements: "-r requirements.txt"
-      output-path: "__output__/"
+      # output-path: "__output__/"
