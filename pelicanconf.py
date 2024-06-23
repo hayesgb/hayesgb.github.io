@@ -43,12 +43,8 @@ STATIC_PATHS = ['images', 'theme/images', 'extra/robots.txt']
 
 PROJECTS = [
     {
-        'name': 'adlfs',
+        'name': 'Azure Datalake FileSystem',
         'url': 'https://github.com/fsspec/adlfs'
-    },
-    {
-        'name': 'US-11430321-B2 -- Reducing illnesses and infections caused by ineffective cleaning by tracking and controlling cleaning efficacy',
-        'url': 'https://ppubs.uspto.gov/dirsearch-public/print/downloadPdf/11430321'
     },
     {
         'name': 'US-11804124-B2 -- Reducing illnesses and infections caused by ineffective cleaning by tracking and controlling cleaning efficacy',
@@ -63,39 +59,19 @@ PROJECTS = [
         "url":  "https://ppubs.uspto.gov/dirsearch-public/print/downloadPdf/11308788",
     },
     {
-        "name": "US 20180312446 A1 -- Composition and Methods for Wood Concrete Board",
-        "url": "https://patents.google.com/patent/US20180312446A1/en?oq=US+20180312446",
-    },
-    {
-        "name": "US 11884833 B2 -- Damage-Tolerant Coating",
-        "url": "https://ppubs.uspto.gov/dirsearch-public/print/downloadPdf/11884833",
-    },
-    {
         "name": "US 11104762-B2 -- Silicone-Modified Polyester Coating",
         "url": "https://ppubs.uspto.gov/dirsearch-public/print/downloadPdf/11104762",
     },
     {
-        "name": "US 9187673 B2 -- Polyester Coating Composition",
-        "url": "https://patents.google.com/patent/US9187673?oq=hayes+and+melnyk",
-    },
-    {
-        "name": "US 8758888 -- Crosslinkable Imide Polyester Coating",
-        "url": "https://ppubs.uspto.gov/dirsearch-public/print/downloadPdf/8758888",
+        "name": "US 8895689B2 -- Production of polymers from waste cooking oil",
+        "url": "https://ppubs.uspto.gov/dirsearch-public/print/downloadPdf/8895689"
     },
     {
         "name": "US 7393591-B2 -- High-reflectivity Polyester Coating",
         "url": "https://ppubs.uspto.gov/dirsearch-public/print/downloadPdf/7393591",
     },
-    {
-        "name": "US-7244506-B2 -- High-reflectivity Polyester Coating",
-        "url": "https://ppubs.uspto.gov/dirsearch-public/print/downloadPdf/7244506",
-    },
-    {
-        "name": "US-6974631-B2 -- High-reflectivity Polyester Coating",
-        "url": "https://ppubs.uspto.gov/dirsearch-public/print/downloadPdf/6974631",
-    }
 ]
-PROJECTS_TITLE = "Projects & Patents"
+PROJECTS_TITLE = "Favorite Projects & Patents"
 
 PLUGIN_PATHS = ['pelican-plugins']
 PLUGINS = [
