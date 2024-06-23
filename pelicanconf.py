@@ -78,7 +78,7 @@ PLUGINS = [
     'extract_toc', 
     'series', 
     'assets', 
-    'share_post'
+    'share_post',
     ]
 
 MARKDOWN = {

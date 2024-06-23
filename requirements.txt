@@ -22,3 +22,4 @@ soupsieve==2.5
 Unidecode==1.3.8
 watchfiles==0.22.0
 webassets==2.0
+pelican-series==3.0.0
