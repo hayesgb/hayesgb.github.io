@@ -1,8 +1,8 @@
-Title: Patents
-Date: 2014-12-03
-<!-- Category: Examples -->
-
-[TOC]
+---
+title: Patents
+description: Greg Hayes's patents across machine learning/AI, coatings, and polymers.
+pubDate: 2014-12-03
+---
 
 ## Machine Learning / AI
 
@@ -35,4 +35,5 @@ Date: 2014-12-03
 
 
 ## Polymers
+
 [US 8895689-B2 -- Production of polymers from waste cooking oil](https://ppubs.uspto.gov/dirsearch-public/print/downloadPdf/8895689)

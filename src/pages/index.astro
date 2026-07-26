@@ -1,0 +1,34 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+import { AUTHOR, LANDING_PAGE_TITLE, SITE_DESCRIPTION, SITE_TITLE } from '../consts';
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header />
+		<main>
+			<h1>{LANDING_PAGE_TITLE}</h1>
+			<p>
+				I am a global technology leader, data scientist and chemist, currently working in
+				Data Science Strategy &amp; Architecture at Carrier. This is my personal microsite,
+				where I write about topics unrelated to my current employment.
+			</p>
+			<p>
+				My experience includes 15 years in Data Science, MLOps and Enterprise/System
+				Architecture, and 20 years in Coil Coatings. I'm a fan of open source software, an
+				advocate of Design Thinking and a student of AI.
+			</p>
+			<p>
+				Read the <a href="/articles">articles</a>, browse my <a href="/patents">patents &amp; projects</a>,
+				or learn more <a href="/about">about me</a>.
+			</p>
+		</main>
+		<Footer />
+	</body>
+</html>
