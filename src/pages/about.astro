@@ -1,0 +1,30 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+import { AUTHOR } from '../consts';
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={`About — ${AUTHOR}`} description={`About ${AUTHOR}`} />
+	</head>
+	<body>
+		<Header />
+		<main class="prose">
+			<h1>About</h1>
+			<p>
+				I am a global technology leader, data scientist and chemist, currently working in
+				Data Science Strategy &amp; Architecture at Carrier. This is my personal microsite,
+				where I write about topics unrelated to my current employment.
+			</p>
+			<p>
+				My experience includes 15 years in Data Science, MLOps and Enterprise/System
+				Architecture, and 20 years in Coil Coatings. I'm a fan of open source software, an
+				advocate of Design Thinking and a student of AI.
+			</p>
+		</main>
+		<Footer />
+	</body>
+</html>

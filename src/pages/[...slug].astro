@@ -1,0 +1,46 @@
+---
+import { type CollectionEntry, getCollection, render } from 'astro:content';
+import BaseHead from '../components/BaseHead.astro';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+
+export async function getStaticPaths() {
+	const pages = await getCollection('pages');
+	return pages.map((page) => ({
+		params: { slug: page.id },
+		props: page,
+	}));
+}
+
+type Props = CollectionEntry<'pages'>;
+
+const page = Astro.props;
+const { Content } = await render(page);
+const { title, description } = page.data;
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={title} description={description ?? title} />
+		<style>
+			main {
+				width: 720px;
+				max-width: calc(100% - 2em);
+				margin: auto;
+				padding: 3em 1em;
+			}
+			.prose h1 {
+				margin-bottom: 1em;
+			}
+		</style>
+	</head>
+	<body>
+		<Header />
+		<main class="prose">
+			<h1>{title}</h1>
+			<Content />
+		</main>
+		<Footer />
+	</body>
+</html>
