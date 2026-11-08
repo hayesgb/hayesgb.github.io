@@ -29,10 +29,19 @@ Astro-powered static site (Greg's Workbench). Node 20+. No test suite.
 - Articles: `src/content/articles/**/*.{md,mdx}` (collection `articles`).
 - Pages: `src/content/pages/**/*.{md,mdx}` (collection `pages`, rendered at `/<slug>/`).
 - Schemas defined in `src/content.config.ts` (Zod). Frontmatter is type-checked at build.
-- Site-wide data (title, author, social, patents/projects list) lives in `src/consts.ts`.
+- Site-wide data (title, author, social links) lives in `src/consts.ts`. The patents list is
+  `src/content/pages/patents.md`.
 - Static files (favicon, robots.txt) go in `public/` → served at root.
 - Images in `src/assets/` are optimized by Astro; images in `public/` are copied verbatim.
 - Build output (`dist/`) and `.astro/` are gitignored.
+
+## Drafts and research
+
+- `draft: true` in an article's frontmatter shows it in `npm run dev` only;
+  production builds leave it out of the list, its page and the RSS feed.
+- `research/` is a git submodule pointing to a PRIVATE repo
+  (hayesgb/personal-research). Never copy its contents into `src/`,
+  `public/`, or any file in this public repo.
 
 ## Markdown / rendering
 
